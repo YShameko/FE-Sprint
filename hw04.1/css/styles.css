@@ -82,6 +82,7 @@ body {
 
 .footer__columns {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer__info {
@@ -94,8 +95,7 @@ body {
     line-height: 100%;
     letter-spacing: 0%;
     text-decoration: none;
-    align-items: center;
-    padding: 0px 0px 0px 240px;
+    justify-content: left;
 }
 
 .footer__info-contacts {
@@ -124,8 +124,8 @@ body {
 .sitemap__columns {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    padding: 0px 0px 100px 0px;
+    justify-content: space-between;
+    padding: 0px 0px 100px 145px;
 }
 
 .sitemap__column {
@@ -154,6 +154,7 @@ body {
 
 .sitemap__list a {
     text-decoration: none;
+    color: #EFEFF2;
 }
 
 .copyright {
